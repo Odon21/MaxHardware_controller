@@ -12,8 +12,11 @@ _PINS_
   #define TFT_RST   4  // Reset
   #define T_IRQ  14    // Touch interupt
   #define T_CS  5      // Touch chip selector
+```
 
 _SPI_Frequency_
-  ``#define SPI_FREQUENCY  27000000
+```
+  #define SPI_FREQUENCY  27000000
   #define SPI_READ_FREQUENCY  20000000
   #define SPI_TOUCH_FREQUENCY  2500000``
+```
