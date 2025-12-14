@@ -1,7 +1,7 @@
 # This library is only for LCD TFT 240x320 ILI9341_DRIVER
 ## #define ILI9341_DRIVER
-Configuration
-  ### Arduino/libraries/TFT_eSPI/User_Setup.h
+### Configuration
+  `Arduino/libraries/TFT_eSPI/User_Setup.h`
 
 _PINS_
   ```#define TFT_MISO 19  //SPI
