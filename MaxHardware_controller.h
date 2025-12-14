@@ -18,6 +18,9 @@ class MaxHardware_controller {
     TFT_eSPI tft;
     XPT2046_Touchscreen touch;
     MaxHardware_controller();
+    /*!
+      Inicializa a tela
+    */
     void begin();
     /*!
       @param value valor do brilho da tela 0 a 255;
@@ -41,5 +44,9 @@ class MaxHardware_controller {
       @param showCordinates Se for verdadeiro eira imprimir as posicoes onde foi detectado o toque na tela
     */
     void mapTouch(bool showCoordinates = false);
+
+    /*
+    * Pode adicionar seus metodos aqui
+    */
 };
 #endif
